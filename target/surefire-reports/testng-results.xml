@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UI Automation" duration-ms="50327" started-at="2017-11-11T08:46:14Z" finished-at="2017-11-11T08:47:05Z">
+    <groups>
+    </groups>
+    <test name="Sanity Test on FireFox" duration-ms="50327" started-at="2017-11-11T08:46:14Z" finished-at="2017-11-11T08:47:05Z">
+      <class name="testcases.HomepageTest">
+        <test-method status="PASS" signature="pathForExtendReport()[pri:0, instance:testcases.HomepageTest@60f82f98]" name="pathForExtendReport" is-config="true" duration-ms="5611" started-at="2017-11-11T14:16:09Z" finished-at="2017-11-11T14:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pathForExtendReport -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="openBrowser" is-config="true" duration-ms="10393" started-at="2017-11-11T14:16:14Z" finished-at="2017-11-11T14:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.seleniumeasy.com/test/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testcases.HomepageTest.verifyPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:testcases.HomepageTest@60f82f98]" name="verifyPageTitle" duration-ms="225" started-at="2017-11-11T14:16:25Z" finished-at="2017-11-11T14:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="closeBrowser" is-config="true" duration-ms="205" started-at="2017-11-11T14:16:25Z" finished-at="2017-11-11T14:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=HomepageTest.verifyPageTitle()[pri:1, instance:testcases.HomepageTest@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="openBrowser" is-config="true" duration-ms="7021" started-at="2017-11-11T14:16:25Z" finished-at="2017-11-11T14:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.seleniumeasy.com/test/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testcases.HomepageTest.verifyCurrentURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyCurrentURL()[pri:2, instance:testcases.HomepageTest@60f82f98]" name="verifyCurrentURL" duration-ms="327" started-at="2017-11-11T14:16:32Z" finished-at="2017-11-11T14:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentURL -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="closeBrowser" is-config="true" duration-ms="205" started-at="2017-11-11T14:16:33Z" finished-at="2017-11-11T14:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCurrentURL status=SUCCESS method=HomepageTest.verifyCurrentURL()[pri:2, instance:testcases.HomepageTest@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="openBrowser" is-config="true" duration-ms="6489" started-at="2017-11-11T14:16:33Z" finished-at="2017-11-11T14:16:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.seleniumeasy.com/test/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testcases.HomepageTest.verifyInputFormDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyInputFormDropdown()[pri:3, instance:testcases.HomepageTest@60f82f98]" name="verifyInputFormDropdown" duration-ms="1020" started-at="2017-11-11T14:16:39Z" finished-at="2017-11-11T14:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputFormDropdown -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="closeBrowser" is-config="true" duration-ms="139" started-at="2017-11-11T14:16:40Z" finished-at="2017-11-11T14:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInputFormDropdown status=SUCCESS method=HomepageTest.verifyInputFormDropdown()[pri:3, instance:testcases.HomepageTest@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="openBrowser" is-config="true" duration-ms="6478" started-at="2017-11-11T14:16:40Z" finished-at="2017-11-11T14:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.seleniumeasy.com/test/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testcases.HomepageTest.verifyDatePickerDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyDatePickerDropdown()[pri:4, instance:testcases.HomepageTest@60f82f98]" name="verifyDatePickerDropdown" duration-ms="17638" started-at="2017-11-11T14:16:47Z" finished-at="2017-11-11T14:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDatePickerDropdown -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.HomepageTest@60f82f98]" name="closeBrowser" is-config="true" duration-ms="165" started-at="2017-11-11T14:17:05Z" finished-at="2017-11-11T14:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDatePickerDropdown status=SUCCESS method=HomepageTest.verifyDatePickerDropdown()[pri:4, instance:testcases.HomepageTest@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeAllBrowser()[pri:0, instance:testcases.HomepageTest@60f82f98]" name="closeAllBrowser" is-config="true" duration-ms="489" started-at="2017-11-11T14:17:10Z" finished-at="2017-11-11T14:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllBrowser -->
+      </class> <!-- testcases.HomepageTest -->
+    </test> <!-- Sanity Test on FireFox -->
+  </suite> <!-- UI Automation -->
+</testng-results>

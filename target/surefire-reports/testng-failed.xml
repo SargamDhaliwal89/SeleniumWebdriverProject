@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UI Automation]">
+  <parameter name="baseURL" value="http://www.seleniumeasy.com/test/"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Sanity Test on FireFox">
+    <parameter name="baseURL" value="http://www.seleniumeasy.com/test/"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testcases.HomepageTest"/>
+    </classes>
+  </test> <!-- Sanity Test on FireFox -->
+</suite> <!-- Failed suite [UI Automation] -->

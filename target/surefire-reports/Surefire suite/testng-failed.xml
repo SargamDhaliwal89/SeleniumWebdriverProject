@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <classes>
+      <class name="testcases.HomepageTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="testcases.HomepageTest">
+        <methods>
+          <include name="verifyInputFormDropdown"/>
+          <include name="pathForExtendReport"/>
+          <include name="verifyDatePickerDropdown"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifyCurrentURL"/>
+        </methods>
+      </class> <!-- testcases.HomepageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
