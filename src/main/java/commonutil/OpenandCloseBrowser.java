@@ -45,7 +45,7 @@ public class OpenandCloseBrowser {
 	protected static ExtentReports report=null;
 	protected static ExtentTest logger=null;
 	ScreenshotOnFailure screen;
-	public static final String USERNAME = "";
+	public static final String USERNAME = "Credentials";
 	public static final String AUTOMATE_KEY = "";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
